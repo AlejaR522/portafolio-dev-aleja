@@ -1,16 +1,40 @@
-# React + Vite
+# Portafolio — Alejandra Tibidor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal desarrollado con React, Vite y Tailwind CSS.
 
-Currently, two official plugins are available:
+🔗 **Live:** https://AlejaR522.github.io/portafolio-dev-aleja
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite
+- Tailwind CSS v4
+- GitHub Pages (deploy)
 
-## Expanding the ESLint configuration
+## Secciones
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Hero** — presentación y disponibilidad
+- **Sobre mí** — perfil y enfoque
+- **Stack** — tecnologías que manejo
+- **Proyectos** — proyectos seleccionados con links a GitHub
+- **Contacto** — correo, LinkedIn y GitHub
+
+## Correr localmente
+
+```bash
+git clone https://github.com/AlejaR522/portafolio-dev-aleja.git
+cd portafolio-dev-aleja
+npm install
+npm run dev
+```
+
+## Deploy
+
+```bash
+npm run deploy
+```
+
+---
+
+Desarrollado por **Alejandra Tibidor** — 2026
