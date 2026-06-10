@@ -13,16 +13,24 @@ function About() {
         </div>
         <div className="space-y-5 text-lg text-muted-foreground md:col-span-7">
           <p>
-            Me apasiona diseñar sistemas pensando en cómo van a funcionar de verdad: qué problema
-            resuelven, cómo se estructuran y cómo conectan todas sus partes.
+            Me apasiona diseñar sistemas pensando en cómo van a funcionar de
+            verdad: qué problema resuelven, cómo se estructuran y cómo conectan
+            todas sus partes.
           </p>
           <p>
-            Esa forma de pensar — entender los requerimientos, dibujar el flujo, decidir la arquitectura — es
-            lo que más me define como desarrolladora. Trabajo cómoda con backend (Node, Spring Boot) y
+            Esa forma de pensar — entender los requerimientos, dibujar el flujo,
+            decidir la arquitectura — es lo que más me define como
+            desarrolladora. Trabajo cómoda con backend (Node, Spring Boot) y
             también construyo frontends limpios con React, Next.js y Tailwind.
           </p>
+
+          <p className="flex items-center gap-2 text-foreground mt-20">
+            <MapPin className="h-4 w-4 text-accent" /> Villavicencio ·
+            Disponible para trabajo remoto
+          </p>
           <p className="flex items-center gap-2 text-foreground">
-            <MapPin className="h-4 w-4 text-accent" /> Villavicencio · Disponible para trabajo remoto
+            Busco contrato de aprendizaje o empleo junior remoto donde pueda
+            crecer construyendo sistemas reales.
           </p>
         </div>
       </div>
@@ -30,5 +38,4 @@ function About() {
   );
 }
 
-
-export default About
+export default About;

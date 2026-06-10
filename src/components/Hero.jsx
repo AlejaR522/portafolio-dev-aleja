@@ -7,15 +7,25 @@ function Hero() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 pb-20 pt-16 md:grid-cols-12 md:gap-8 md:pt-28">
         <div className="md:col-span-7">
           <p className="font-mono-tag mb-6 text-muted-foreground">
-            Villavicencio, Colombia · <span className="text-accent">Disponible junior / aprendizaje</span>
+            Villavicencio, Colombia ·{" "}
+            <span className="text-accent">
+              DISPONIBLE · CONTRATO DE APRENDIZAJE / JUNIOR REMOTO
+            </span>
           </p>
           <h1 className="font-display text-5xl leading-[1.02] tracking-tight md:text-7xl lg:text-8xl">
-            Diseño sistemas <em className="italic text-accent">pensados</em> para funcionar de verdad.
+            Diseño sistemas <em className="italic text-accent">pensados</em>{" "}
+            para funcionar de verdad.
           </h1>
           <p className="mt-8 max-w-xl text-lg text-muted-foreground">
-            Soy <span className="text-foreground">Alejandra Tibidor</span>, estudiante de Tecnología en Desarrollo
-            de Software en UNIMINUTO Villavicencio. Enfocada en <span className="text-foreground">backend</span> y
-            arquitectura de aplicaciones web. Pienso primero el problema, después el código.
+            Soy <span className="text-foreground">Alejandra Tibidor</span>,
+            estudiante de Tecnología en Desarrollo de Software en UNIMINUTO
+            Villavicencio. Enfocada en{" "}
+            <span className="text-foreground">backend</span> y{" "}
+            <span className="text-foreground">
+              arquitectura de aplicaciones web
+            </span>
+            . Construyo sistemas con Node.js, Java y React — pensando primero el
+            problema, después el código.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
@@ -67,4 +77,4 @@ function Hero() {
     </section>
   );
 }
-export default Hero
+export default Hero;
