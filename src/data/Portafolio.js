@@ -43,5 +43,5 @@ export const stack = {
   Backend: ["Node.js", "Express", "Java", "Spring Boot", "REST APIs", "JWT"],
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
   "Datos & ORM": ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Prisma"],
-  Herramientas: ["Visual Studio Code","Git", "GitHub", "Figma"],
+  Herramientas: ["Visual Studio Code","Git", "GitHub", "GitHub Copilot", "Claude","Figma", "Postman", "ChatGPT", "Lovable", ],
 };

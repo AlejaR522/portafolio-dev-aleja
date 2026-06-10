@@ -22,6 +22,10 @@ function About() {
             decidir la arquitectura — es lo que más me define como
             desarrolladora. Trabajo cómoda con backend (Node, Spring Boot) y
             también construyo frontends limpios con React, Next.js y Tailwind.
+            Uso herramientas de IA como apoyo en desarrollo —{" "}
+            <span className="text-accent italic">
+              no para reemplazar el pensamiento, sino para potenciarlo.
+            </span>
           </p>
 
           <p className="flex items-center gap-2 text-foreground mt-20">
